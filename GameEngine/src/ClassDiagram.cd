@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameObject">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAAEAAAAAAAAAAAAABAAAAAAAAAAAEAQAAAAIIEAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCSNode" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="name" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BACAAAQgAAAAAABAAECGAAACIAAECABAgAAkAABAQAQ=</HashCode>
+      <FileName>C:\Users\cdminstructor\Desktop\gam575\keenan2015spring_gam575\instructor\_lecture\Week_10\ExternLibs\libs\PCSTree\include\PCSNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

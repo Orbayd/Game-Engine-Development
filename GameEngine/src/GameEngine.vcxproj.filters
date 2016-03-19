@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GraphicsObject.cpp">
+      <Filter>GraphicsObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMaterial.cpp">
+      <Filter>GraphicsObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderObject.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Wireframe.cpp">
+      <Filter>GraphicsObjects\wireframe</Filter>
+    </ClCompile>
+    <ClCompile Include="Render_Wireframe.cpp">
+      <Filter>GraphicsObjects\wireframe</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_ColorByPosition.cpp">
+      <Filter>GraphicsObjects\colorbyposition</Filter>
+    </ClCompile>
+    <ClCompile Include="Render_ColorByPosition.cpp">
+      <Filter>GraphicsObjects\colorbyposition</Filter>
+    </ClCompile>
+    <ClCompile Include="Render_FlatTexture.cpp">
+      <Filter>GraphicsObjects\flattexture</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_FlatTexture.cpp">
+      <Filter>GraphicsObjects\flattexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureNode.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMan.cpp">
+      <Filter>Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectMan.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_TextureLight.cpp">
+      <Filter>GraphicsObjects\textureLight</Filter>
+    </ClCompile>
+    <ClCompile Include="Render_TextureLight.cpp">
+      <Filter>GraphicsObjects\textureLight</Filter>
+    </ClCompile>
+    <ClCompile Include="PyramidModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Anim.cpp" />
+    <ClCompile Include="Anim2Bone.cpp" />
+    <ClCompile Include="GameObjectAnim.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectRigid.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Teddy.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAnimator.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGameObjAnim.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Humanoid.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_GLFW">
+      <UniqueIdentifier>{d1e99522-f419-4132-b372-6218cfbf1410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_GLFW\lib">
+      <UniqueIdentifier>{a836f45b-11c9-4492-9c60-f8dd52985ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_GLFW\include">
+      <UniqueIdentifier>{49489779-46e9-4d54-b45e-93e51ba56c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_SB6">
+      <UniqueIdentifier>{073ae4dc-977d-4832-b923-136da6fc1fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_SB6\lib">
+      <UniqueIdentifier>{0cc57226-561b-483b-9687-954c2d7bc1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_SB6\include">
+      <UniqueIdentifier>{5a8f188b-0355-42b6-ae5f-379742fdad8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Math">
+      <UniqueIdentifier>{84ebef71-2d32-45ea-a744-fee501a14e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Math\lib">
+      <UniqueIdentifier>{e350e5bc-8ac1-4af1-8df5-1a4ce448acb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Math\include">
+      <UniqueIdentifier>{047e1208-df33-4eb6-b0af-325bff758686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_File">
+      <UniqueIdentifier>{c1be5da8-a3d8-497f-9e80-66b8012091ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_File\include">
+      <UniqueIdentifier>{21e812a5-8064-4db7-9255-126e76304a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_File\lib">
+      <UniqueIdentifier>{b9f790cc-27aa-46d9-99be-78d9349f88de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects">
+      <UniqueIdentifier>{93a4850e-23b0-4751-919a-96abf0093cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{3159976d-7987-4883-a95f-6508fc51ad26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{9abb5a24-81e4-4f47-a978-4466abc83014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{1a86f58b-730f-4ade-9ef5-a03955cc875d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\wireframe">
+      <UniqueIdentifier>{edb264bb-13cd-4b8d-b809-ab411085c148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\colorbyposition">
+      <UniqueIdentifier>{8235b035-db60-41a6-8f5e-1de62e225a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\flattexture">
+      <UniqueIdentifier>{e80262e2-0161-4071-b26e-d6bc78c8e0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{d1cdfaf2-940b-4c46-9007-5d89e201e7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Keyboard">
+      <UniqueIdentifier>{11a82bb0-489a-419a-b545-6b83a9433e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{15363e7a-295c-4bb1-920a-3bdaf0aa931b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_PCSTree">
+      <UniqueIdentifier>{4e1281c6-60ff-4195-a34e-c7a4c0765cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_PCSTree\include">
+      <UniqueIdentifier>{ec4259a2-bd00-4b7c-ad02-f3f5abeaacc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_PCSTree\lib">
+      <UniqueIdentifier>{261644ec-37ae-4224-83b5-01fc78dad23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\textureLight">
+      <UniqueIdentifier>{afe14a77-dea2-4ef7-8fa4-f63c952c280f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Time">
+      <UniqueIdentifier>{a23c2862-9c97-4ff0-ac0a-0decbda7077a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Time\include">
+      <UniqueIdentifier>{3e9152a7-dd55-4d5a-ac63-33b35c0a85ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Time\lib">
+      <UniqueIdentifier>{4e5eda61-15ee-4d10-a422-2ecfc54669f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{c7643e9d-10ba-4564-a892-d8a86812b905}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\ExternLibs\libs\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Math\lib</Filter>
+    </Library>
+    <Library Include="..\..\ExternLibs\libs\File\lib\File_Debug.lib">
+      <Filter>_File\lib</Filter>
+    </Library>
+    <Library Include="..\..\ExternLibs\libs\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\..\ExternLibs\libs\SB6\lib\sb6_Debug.lib">
+      <Filter>_SB6\lib</Filter>
+    </Library>
+    <Library Include="..\..\ExternLibs\libs\PCSTree\lib\PCSTree_Debug.lib">
+      <Filter>_PCSTree\lib</Filter>
+    </Library>
+    <Library Include="..\..\ExternLibs\libs\Time\lib\Time_Debug.lib">
+      <Filter>_Time\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="LibrarySetup.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>GraphicsObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMaterial.h">
+      <Filter>GraphicsObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderObject.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Wireframe.h">
+      <Filter>GraphicsObjects\wireframe</Filter>
+    </ClInclude>
+    <ClInclude Include="Render_Wireframe.h">
+      <Filter>GraphicsObjects\wireframe</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_ColorByPosition.h">
+      <Filter>GraphicsObjects\colorbyposition</Filter>
+    </ClInclude>
+    <ClInclude Include="Render_ColorByPosition.h">
+      <Filter>GraphicsObjects\colorbyposition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternLibs\libs\Math\include\MathEngine.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternLibs\libs\File\include\File.h">
+      <Filter>_File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternLibs\libs\GLFW\include\GL\glfw.h">
+      <Filter>_GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternLibs\libs\SB6\include\sb6.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternLibs\libs\SB6\include\sb6ext.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternLibs\libs\SB6\include\sb6ktx.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternLibs\libs\SB6\include\sb6mfile.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Render_FlatTexture.h">
+      <Filter>GraphicsObjects\flattexture</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_FlatTexture.h">
+      <Filter>GraphicsObjects\flattexture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureNode.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMan.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternLibs\libs\PCSTree\include\PCSNode.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternLibs\libs\PCSTree\include\PCSTree.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugOut.h" />
+    <ClInclude Include="GameObjectMan.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_TextureLight.h">
+      <Filter>GraphicsObjects\textureLight</Filter>
+    </ClInclude>
+    <ClInclude Include="Render_TextureLight.h">
+      <Filter>GraphicsObjects\textureLight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternLibs\libs\Time\include\Time.h">
+      <Filter>_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ExternLibs\libs\Time\include\Timer.h">
+      <Filter>_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="PyramidModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Anim.h" />
+    <ClInclude Include="FrameBucket.h" />
+    <ClInclude Include="GameObjectAnim.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectRigid.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Teddy.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFile.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAnimator.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGameObjAnim.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Humanoid.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="colorRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="colorRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="textureRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="textureRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Texture.cd" />
+    <None Include="texturePointLightDiff.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="texturePointLightDiff.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
